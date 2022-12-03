@@ -33,6 +33,7 @@ header {
     width: 100%;
     display:flex;
     height: 200px;
+    margin: 0 auto;
     
     
 }
@@ -44,11 +45,8 @@ header {
     align-items: center;
 }
 
-.caja__logo img {
-
-height: 100%;
-
-
+.header__img {
+height: 170px;
 }
 
 
@@ -69,9 +67,12 @@ height: 100%;
 
 .navbar__navegacion ul li {
     list-style-type: none;
-    font-size: 20px;
+    font-size: 24px;
 }
 
+.navbar__btn{
+            display: none;
+}
 
 /* estilos del hero */
 .hero {
@@ -109,51 +110,124 @@ border: 5px solid #93827F;
 }
 
 .hero__der {
-    width: 60%;
+    width: 80%;
     display:flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     gap: 2em;
-    padding: 2em;
+    padding:4rem 1rem;
+}
+
+.hero__der__h1{
+    font-size: 2.3em;
+    
+}
+.hero__der__h2 {
+    font-size: 1.3em;
+}
+
+.hero__der__p {
+    font-size: 1.3em;
+    text-align: center;
 }
 
 .tecnologias {
-    background-color: #35CE8D;
+    background-color: rebeccapurple;
+    /* background-color: #35CE8D; */
+    height: 90vh;
+   
+  
 }
 
 .progs {
     background-color: #6BA292;
+    padding: 3em;
+    width: 100%;
+    display:grid;
+    grid-template-columns: repeat(7, 1fr);
 }
 #icono:before {
-   font-size: 1.3em;
-   padding-left: 50px;
+   font-size: 5em;
+   
    
 }
 
-.footer {
-    display:flex;
-    flex-direction: column;
-    justify-content: space-around;
-    padding : 3em;
-    background-color: #93827F;
+.tarjetas{
+    width: 90%;
+    border: 1px solid yellow; 
 }
 
-.footer ul {
+.tarjeta{
+    border: 1px solid black;
     display:flex;
-    gap: 4em;
-    list-style-type: none;
+    width: 600px;
+    flex-wrap: wrap;
 }
 
-
-
-
-
-
-/* mediaquerys */
-
-@media (max-width: 780px) {
-    header {
-        display:none;
+/* .tarjeta__img{
+    
+}
+.tarjeta__overlay{
+    
+}
+.tarjeta__cajabotones{
+    
+}
+.tarjeta__btn{
+    
+}
+.tarjeta__btn{
+    
+    
+} */
+    .footer {
+        display:flex;
+        flex-direction: column;
+        justify-content: space-around;
+        padding : 3em;
+        background-color: #93827F;
     }
-  }
+    
+    .footer ul {
+        display:flex;
+        gap: 4em;
+        list-style-type: none;
+    }
+
+
+/**** mediaquerys ****/
+    
+@media (max-width: 900px) {
+        .navbar__navegacion {
+            display:none;
+        }
+        .navbar__btn {
+            display: block;
+            position: absolute;
+            right: 30px;
+            top: 10px;
+            font-size: 3em;
+
+        }
+        .hero__der__p {
+            font-size: 1rem;
+        }
+
+        .progs {
+            display:flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            gap: 4rem;
+        }
+       
+        
+    }
+
+
+@media (max-width: 696px) {
+
+
+
+}

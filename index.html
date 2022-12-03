@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
     <link rel="stylesheet" href="style.css">
-
+<link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -17,37 +17,43 @@
 <body>
     <header>
         <div class="caja__logo">
-            <img src="./Permabustan.png"/>
+            <img 
+            class="header__img"
+            src="./e-removebg-preview-removebg-preview.png">
         </div>
         <nav class="navbar">
             <div class="navbar__navegacion">
             <ul>
                 <li>Home</li>
-                <li>Proyectos</li>
-                <li>Experiencia</li>
+                <li>Proyects</li>
+                <li>About Me</li>
                 <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
 
                 <li><a href="#"><i class="fa-solid fa-code"></i></a></li>
             </ul>
         </div>
+        <div class="navbar__btn">
+            <i class="fa-solid fa-ellipsis-vertical"></i>
+        </div>
+            
         </nav>
 
     </header>
     <div class="hero">
+        <section class="hero__der">
+            <h1 class="titulo_movimiento"> Hi, I'm Radif</h1>
+            <h2 class="hero__der__h2"> Diseñador Creativo</h2>
+            
+            <p class="hero__der__p">
+                Disfruto creando webs responsivas. En busca de innovar, creando código lo mas limpio posible, realizando buenas prácticas.
+            </p>
+        </section>
         <section class="hero__izq">
-            <img src="perfil.jpg" 
+            <img src="profile1.jpg" 
                 alt="fotoperfil">
                 <button>Contactame</button>
         </section>
         
-        <section class="hero__der">
-            <h1 class="hero__der__h1"> My name is Hamza</h1>
-            <h2> Diseñador Creativo</h2>
-            
-            <p class="hero__der__p">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit eos alias veniam fugiat, numquam esse nesciunt molestiae voluptates voluptatem ex?
-            </p>
-        </section>
 
     </div>
     <div class="progs">
@@ -57,18 +63,52 @@
         <i class="fa-brands fa-js" id="icono"></i>
         <i class="fa-brands fa-bootstrap" id="icono"></i>
         <i class="fa-brands fa-sass" id="icono"></i>
-        <i class="fa-brands fa-node" id="icono"></i>
+        
         <i class="fa-brands fa-angular" id="icono"></i>
         <i class="fa-brands fa-react" id="icono"></i>
-        <i class="fa-brands fa-python" id="icono"></i>
+        
 
         
     </div>
-    <main class="tecnologias">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam possimus eum amet doloribus officia, sapiente tempore fugit laborum ex nemo porro quaerat enim neque fuga aliquid vitae inventore nihil earum minus distinctio? Vero fuga eum nihil, fugiat asperiores ex error maiores voluptatem sunt blanditiis! Aliquid exercitationem fugit aspernatur, dolor fuga debitis! Explicabo eligendi, reprehenderit fugiat aliquam repudiandae ratione at itaque dolorem alias harum rem hic, animi tenetur aut. Beatae, nostrum aperiam maiores aliquam quam autem dicta. Voluptate sint corrupti perferendis placeat perspiciatis facilis voluptates. Repudiandae, magnam! Atque, doloremque?
 
-        </p>
 
+    <main class="proyectos">
+        <section class="tarjetas">
+            <div class="tarjeta">
+                <img class="tarjeta__img" src="https://picsum.photos/seed/picsum/100/100" alt="">
+                <div class="tarjeta__overlay"></div>
+                <div class="tarjeta__cajabotones">
+                    <button class="tarjeta__btn"> web </button>
+                    <button class="tarjeta__btn"> github </button>
+                </div>
+                <div class="tarjeta">
+                    <img class="tarjeta__img" src="https://picsum.photos/seed/picsum/100/100" alt="">
+                    <div class="tarjeta__overlay"></div>
+                    <div class="tarjeta__cajabotones">
+                        <button class="tarjeta__btn"> web </button>
+                        <button class="tarjeta__btn"> github </button>
+                    </div>
+                </div>
+                <div class="tarjeta">
+                    <img class="tarjeta__img" src="https://picsum.photos/seed/picsum/100/100" alt="">
+                    <div class="tarjeta__overlay"></div>
+                    <div class="tarjeta__cajabotones">
+                        <button class="tarjeta__btn"> web </button>
+                        <button class="tarjeta__btn"> github </button>
+                    </div>
+                </div>
+                <div class="tarjeta">
+                    <img class="tarjeta__img" src="https://picsum.photos/seed/picsum/100/100" alt="">
+                    <div class="tarjeta__overlay"></div>
+                    <div class="tarjeta__cajabotones">
+                        <button class="tarjeta__btn"> web </button>
+                        <button class="tarjeta__btn"> github </button>
+                    </div>
+                </div>
+          
+            </div>
+        </section>
+       
 
     </main>
     <footer class="footer">
