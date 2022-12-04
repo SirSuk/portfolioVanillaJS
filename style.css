@@ -273,9 +273,9 @@ margin-bottom: 2rem;
     margin: 0;
     justify-content: center;
     align-items: center;
-    gap: 2rem;
+    gap: 1rem;
     border-radius: 20px;
-    padding: 1rem;
+    padding: 5rem;
     display: grid;
     grid-template-columns: repeat( auto-fit, minmax(250px, 1fr) );
 }
@@ -293,13 +293,14 @@ margin-bottom: 2rem;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 1rem;
+    gap: .5rem;
     
    
 }
 .tarjeta__img {
-    width: 300px;
-    height: 200px;
+    width: 400px;
+    height: 250px;
+    border-radius: 20px;
 }
 .tarjeta__titulo {
 font-size: 2rem;
