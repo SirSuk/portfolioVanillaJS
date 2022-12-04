@@ -31,7 +31,9 @@ header {
     display:flex;
     height: 100px;
     margin: 0 auto;
-    background-color: #A5ABAF;
+    background-color:#9AADBF;
+
+   
     margin-bottom: 0 !important;
 
 }
@@ -54,7 +56,7 @@ height: 300px;
 
 
 .navbar {
-    background-color:#E3E9C2;
+    
     width: 55%;
 }
 
@@ -93,7 +95,7 @@ height: 300px;
     
     display:flex;
     gap: .6em;
-    background-color: #05AAE6;
+     background-color: #6D98BA;
     padding: 2em;
 
 
@@ -243,7 +245,7 @@ margin-bottom: 2rem;
 
 
 .progs {
-    background-color: #F9FBB2;
+    background-color: #9AADBF;
     padding: 3em;
     width: 100%;
     padding-left: 100px;
@@ -263,7 +265,7 @@ margin-bottom: 2rem;
 *******************************/
 
 .proyectos {
-    background-color: #ADB3B6;
+    background-color:#9AADBF;
     /* background-color: #35CE8D; */
     width: 100%;
     padding:4em 4em;
@@ -391,7 +393,7 @@ font-size: 2rem;
         /* flex-direction: column; */
         justify-content: space-around;
         padding : 3em;
-        background-color: #A5ABAF;
+        background-color: #6D98BA;
     }
 
 .footer ul {
