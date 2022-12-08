@@ -19,12 +19,21 @@ font-family: 'Rubik Distressed', cursive;*/
 
 body {
     
+<<<<<<< Updated upstream
     height: 100%;
     font-family: 'Josefin Sans', sans-serif;
     font-size: 1em;
     color: white;
     width: 100%;
     margin:0 auto
+=======
+    min-height: 100%;
+    font-family: 'DM Mono', monospace;
+    font-size: 1em;
+    color: black;   
+    margin:0 auto;
+    background-color: rgb(217, 151, 38)
+>>>>>>> Stashed changes
 }
 
 h1{
@@ -37,8 +46,17 @@ h2 {
 header {
     width: 100%;
     display:flex;
+<<<<<<< Updated upstream
     height: 200px;
     margin: 0 auto;
+=======
+    height: 150px;
+    margin: 0 auto;
+    /* background-color:#9AADBF; */
+
+   
+    margin-bottom: 2rem !important;
+>>>>>>> Stashed changes
 
 }
 .caja__logo {
@@ -52,7 +70,10 @@ header {
 }
 
 .header__img {
-height: 300px;
+height: 350px;
+padding-top: 6rem;
+width: 400px;
+
 }
 
 
@@ -78,7 +99,12 @@ height: 300px;
 
 .navbar__navegacion ul li {
     list-style-type: none;
+<<<<<<< Updated upstream
     font-size: 25px;
+=======
+    font-weight: 700;
+    font-size: 16px;
+>>>>>>> Stashed changes
     color: black
    
 }
@@ -96,8 +122,13 @@ height: 300px;
 .hero {
     
     display:flex;
+<<<<<<< Updated upstream
     gap: 2em;
     background-color: #05AAE6;
+=======
+    gap: .6em;
+     /* background-color: #6D98BA; */
+>>>>>>> Stashed changes
     padding: 2em;
 
 }
@@ -228,6 +259,17 @@ margin-bottom: 2rem;
     overflow: hidden;
 } */
 
+<<<<<<< Updated upstream
+=======
+i#btn_Colors {  
+position:absolute;
+right: 30px;
+    color: rgba(0, 0, 0, 0.74);
+font-size: 40px;
+cursor: pointer
+}
+
+>>>>>>> Stashed changes
 .hero__der__h2 {
     font-size: 1.2em;
 }
@@ -243,7 +285,11 @@ margin-bottom: 2rem;
 
 
 .progs {
+<<<<<<< Updated upstream
     background-color: #F9FBB2;
+=======
+    /* background-color: #9AADBF; */
+>>>>>>> Stashed changes
     padding: 3em;
     width: 100%;
     padding-left: 100px;
@@ -252,6 +298,7 @@ margin-bottom: 2rem;
     grid-template-columns: repeat(5, 1fr); 
     
 }
+
 #icono:before {
     font-size: 4em;
     
@@ -260,13 +307,19 @@ margin-bottom: 2rem;
 /* seccion proyectos  */
 
 .proyectos {
+<<<<<<< Updated upstream
     background-color: #ADB3B6;
+=======
+    /* background-color:#9AADBF; */
+>>>>>>> Stashed changes
     /* background-color: #35CE8D; */
     width: 100%;
     padding:4em 4em;
-   
-   
-  
+
+}
+.proyectos__title {
+    font-size: 2em;
+    text-align:center
 }
 
 .tarjetas{
@@ -378,14 +431,45 @@ font-size: 2rem;
         display:flex;
         flex-direction: column;
         justify-content: space-around;
+<<<<<<< Updated upstream
         padding : 3em;
         background-color: #A5ABAF;
+=======
+        /* background-color: #6D98BA; */
+       padding: 2rem;
+        
+>>>>>>> Stashed changes
     }
     
     .footer ul {
         display:flex;
         gap: 4em;
         list-style-type: none;
+<<<<<<< Updated upstream
+=======
+        border: 1px solid blueviolet;
+    }
+    .formbox{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: .2rem;
+        padding:.4rem   ;
+        height: 10% ;
+        
+        border-radius: 10px;
+        /* background-color: #9AADBF; */
+    }
+    .formbox__title{
+        
+    }
+    .form {
+        display:flex;
+        flex-direction: column;
+        
+    
+>>>>>>> Stashed changes
     }
 
 
@@ -433,4 +517,58 @@ font-size: 2rem;
     }
   
 
+<<<<<<< Updated upstream
 }
+=======
+}
+
+@media ( max-width: 500px) {
+    .caja__logo {
+        width: 75%;
+    }
+    .header__img {
+        height: 350px;
+        padding-top: 3rem;
+        width: 600px;
+        
+        }   
+
+
+    .progs {
+        padding-right: 70px;
+    }
+    .hero__izq img {
+    width: 150px;
+    height: 150px;
+    }
+    .titulo_movimiento{
+        font-size: 1.8em;
+}
+.hero__der__h2 {
+    font-size: 1em;
+}
+
+.hero__der__p {
+    font-size: 1em;
+    text-align: center;
+}
+
+.proyectos {
+    padding:1em 1em;
+    height: 2100%
+}   
+
+.footer ul {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: .9em;
+    list-style-type: none;
+    margin-bottom: 2rem;
+}
+
+i#btn_Colors { 
+    font-size: 25px;
+}}
+>>>>>>> Stashed changes
